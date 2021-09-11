@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="903.0" prefWidth="1269.0" style="-fx-background-color: #212121;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.supermarket.view.AdminFormController">
+   <children>
+      <AnchorPane layoutX="35.0" layoutY="37.0" prefHeight="828.0" prefWidth="1196.0" style="-fx-background-color: #E0E0E0;">
+         <children>
+            <AnchorPane prefHeight="828.0" prefWidth="233.0" style="-fx-background-color: #FAFAFAE0;">
+               <children>
+                  <Label alignment="CENTER" layoutY="13.0" prefHeight="82.0" prefWidth="260.0" text="Admin" textFill="#455a64">
+                     <font>
+                        <Font name="System Bold" size="31.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="20.0" layoutY="101.0" prefHeight="45.0" prefWidth="200.0" text="System Reports">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="20.0" layoutY="485.0" prefHeight="45.0" prefWidth="200.0" text="Manage Items">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <JFXButton buttonType="RAISED" layoutX="24.0" layoutY="723.0" prefHeight="38.0" prefWidth="210.0" style="-fx-background-color: #CFD8DC;" text="Users" textFill="#163643">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" layoutX="23.0" layoutY="157.0" prefHeight="38.0" prefWidth="210.0" style="-fx-background-color: #CFD8DC;" text="Daily Income" textFill="#163643">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" layoutX="23.0" layoutY="208.0" prefHeight="38.0" prefWidth="210.0" style="-fx-background-color: #CFD8DC;" text="Monthly Income" textFill="#163643">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" layoutX="23.0" layoutY="258.0" prefHeight="38.0" prefWidth="210.0" style="-fx-background-color: #CFD8DC;" text="Anual Income" textFill="#163643">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" layoutX="24.0" layoutY="309.0" prefHeight="38.0" prefWidth="210.0" style="-fx-background-color: #CFD8DC;" text="Customer wise Income" textFill="#163643">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" layoutX="24.0" layoutY="360.0" prefHeight="38.0" prefWidth="210.0" style="-fx-background-color: #CFD8DC;" text="Most Movable" textFill="#163643">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" layoutX="24.0" layoutY="411.0" prefHeight="38.0" prefWidth="210.0" style="-fx-background-color: #CFD8DC;" text="Least Movable" textFill="#163643">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" layoutX="24.0" layoutY="542.0" prefHeight="38.0" prefWidth="210.0" style="-fx-background-color: #CFD8DC;" text="Register New Item" textFill="#163643">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" layoutX="24.0" layoutY="593.0" prefHeight="38.0" prefWidth="210.0" style="-fx-background-color: #CFD8DC;" text="Update Item Details" textFill="#163643">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" layoutX="24.0" layoutY="644.0" prefHeight="38.0" prefWidth="210.0" style="-fx-background-color: #CFD8DC;" text="Remove Items" textFill="#163643">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="AdminDashbord" layoutX="260.0" prefHeight="828.0" prefWidth="936.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
